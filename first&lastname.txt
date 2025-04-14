@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main{
+  public static void main(String[] args){
+    Scanner scan=new Scanner(System.in);
+    String firstName=scan.next();
+    String lastName=scan.next();
+    int n=scan.nextInt();
+    System.out.print("firstName: ");
+        System.out.println("lastName: ");
+            System.out.println("value of n: ");
+               String fullName = firstName+lastName;
+                for(int i=0;i<=n;i++){
+                  System.out.println(fullName);
+                }
+
+
+  }
+}
